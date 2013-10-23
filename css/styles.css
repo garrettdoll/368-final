@@ -5,6 +5,19 @@ body {
     background: skyblue;
 }
 
+.colorhello {
+    color: black;
+    font-size: 20px;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
 
 .footer {
 	color: grey;
