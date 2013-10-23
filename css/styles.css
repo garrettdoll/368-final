@@ -1,6 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
-div#footer {
-	background color: grey;
+body {
+    background: skyblue;
+}
+
+
+.footer {
+	color: grey;
 	}
