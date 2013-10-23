@@ -5,6 +5,16 @@ body {
     background: skyblue;
 }
 
+
+/* not sure if p#opener is the right way, but working */
+
+p#opener {
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
 .colorhello {
     color: black;
     font-size: 20px;
