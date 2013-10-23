@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+
 body {
     background: skyblue;
 }
@@ -22,12 +24,13 @@ p#opener {
 }
 
 h1 {
+    font-family: "sanchez", serif;
     text-align: center;
     color: white;
 }
 
 h3 {
-    font-family: serif;
+    font-family: "sanchez", serif;
     color: black;
     text-align: center;
 }
