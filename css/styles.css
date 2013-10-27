@@ -44,6 +44,12 @@ p#opener {
 }
 
 
+section a {
+    color: black;
+    text-decoration: none;
+}
+
+
 h1 {
     font-family: "sanchez", serif;
     text-align: center;
