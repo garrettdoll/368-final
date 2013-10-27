@@ -9,7 +9,7 @@ body {
 
 #me {
     width: 18%;
-    margin-left: 380px;
+    margin: 10px 380px;
 }
 
 #dicon {
@@ -25,14 +25,14 @@ body {
 }
 
 
-/* not sure if p#opener is the right way, but working */
 
 #opener {
-    margin: 0px 170px;
-    padding: 50px 50px;
+    background: grey;
+    margin: 75px 0px;
+    padding: 20px 150px;
     text-align: center;
-    font-family: sans-serif;
-    font-size: 15px;
+    font-family: "sanchez", serif;
+    font-size: 16px;
     line-height: 30px;
     letter-spacing: 1.5px;
 }
@@ -79,14 +79,18 @@ p {
     color: white;
 }
 
+#pdf {
+    margin: 50px 0px 0px 448px;
+}
+
 #resume {
+    margin: 25px;
     font-size: 14px;
     text-align: center;
     color: white;
 }
 
 footer a {
-    margin-top: 25px;
     color: white;
     text-decoration: none;
 }
@@ -97,4 +101,5 @@ footer a {
     text-align: center;
     color: black;
 }
+
 
