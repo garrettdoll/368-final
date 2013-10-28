@@ -4,6 +4,7 @@
 
 
 body {
+    background: url("../img/bg.png");
     background: skyblue;
 }
 
@@ -65,6 +66,7 @@ section a {
 
 
 h1 {
+    font-size: 50px;
     font-family: "sanchez", serif;
     text-align: center;
     color: white;
@@ -109,5 +111,4 @@ header a {
     text-align: center;
     color: tomato;
 }
-
 
