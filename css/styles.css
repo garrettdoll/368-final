@@ -28,6 +28,7 @@ body {
 
 #opener {
     background: tomato;
+    box-shadow: 3px 2px 2px darkgrey;
     margin: 75px 0px;
     padding: 20px 150px;
     text-align: center;
@@ -46,20 +47,20 @@ body {
 
 section a {
     padding: 5px 12px;
-    color: tomato;
+    color: white;
     text-decoration: none;
 }
 
 #design a:hover {
-    background-color: tomato;
+    color: tomato;
 }
 
 #web a:hover {
-    background-color: tomato;
+    color: tomato;
 }
 
 #video a:hover {
-    background-color: tomato;
+    color: tomato;
 }
 
 
