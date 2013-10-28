@@ -27,7 +27,7 @@ body {
 
 
 #opener {
-    background: #a5a5a5;
+    background: tomato;
     margin: 75px 0px;
     padding: 20px 150px;
     text-align: center;
@@ -46,20 +46,20 @@ body {
 
 section a {
     padding: 5px 12px;
-    color: black;
+    color: tomato;
     text-decoration: none;
 }
 
 #design a:hover {
-    background-color: white;
+    background-color: tomato;
 }
 
 #web a:hover {
-    background-color: white;
+    background-color: tomato;
 }
 
 #video a:hover {
-    background-color: white;
+    background-color: tomato;
 }
 
 
@@ -72,7 +72,7 @@ h1 {
 h3 {
     font-size: 25px;
     font-family: "sanchez", serif;
-    color: black;
+    color: white;
     text-align: center;
     margin: 25px;
 }
@@ -90,7 +90,7 @@ p {
     font-size: 15px;
     float: right;
     margin: -6px 0px 0px 0px;
-    background-color: red;
+    background-color: tomato;
     padding: 15px;
     box-shadow: 2px 2px 2px darkgrey;
 }
@@ -106,7 +106,7 @@ header a {
     margin: 50px 0px;
     font-size: 15px;
     text-align: center;
-    color: black;
+    color: tomato;
 }
 
 
