@@ -85,15 +85,17 @@ p {
     margin: 50px 0px 0px 447px;
 }
 
+
 #resume {
-    background-color: a5a5a5;
-    margin: 25px;
-    font-size: 18px;
-    text-align: center;
-    color: white;
+    font-size: 15px;
+    float: right;
+    margin: -6px 0px 0px 0px;
+    background-color: red;
+    padding: 15px;
+    box-shadow: 2px 2px 2px darkgrey;
 }
 
-footer a {
+header a {
     color: white;
     text-decoration: none;
 }
