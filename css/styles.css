@@ -1,3 +1,379 @@
-@charset "UTF-8";
-/* CSS Document */
+/*==============================
+	KULERS
+
+olive green - #707538
+lighter green - #8B8E68
+blue - #556675
+lighter blue - #A0B1C2
+red - #CC6661
+tan - #dadcc0
+==============================*/
+
+
+
+/*===============
+	LAYOUT
+===============*/
+.container {
+	background: #dadcc0;
+	margin: auto auto;
+    height: auto;
+	width: 95%; /* 960px */
+	max-width: 95%; /* 960px */
+}
+
+
+
+
+nav {
+    text-transform: uppercase;
+    margin-top: -90px;
+    height: 50px;
+	background: white;
+	width: 100%; /* 960px / 960px = 100% */ 
+}
+
+article {
+    height: 100%;
+    text-align: center;
+	background: #dadcc0;
+	float: left;
+	width: 100%; /* 640px / 960px = 66.66666666% */
+}
+
+#front,
+#port {
+    height: 700px;
+}
+
+#port2 {
+    height: 750px;
+}
+
+
+
+
+.thumbs {
+    margin: 0 0 150px 4px;
+    width: 100%;
+    transition:
+}
+
+.fullsize img {
+    margin: 25px 50px;
+    width: 75%;
+}
+
+
+footer {
+
+    font-size: 10px;
+	background: #8B8E68;
+	clear: both; 
+	width: 100%; /* 960px */
+}
+
+
+/*===============
+	NAV
+===============*/
+nav {
+    width: 100%;
+	float: left;
+}
+
+nav li {
+    margin-top: 0px;
+	float: left;
+	list-style: none;
+}
+
+/*PUSH FIRST LINK LEFT TO CLEAR THE LOGO*/
+nav li:nth-child(1) {
+    margin-left: 100px;
+}
+
+nav a {
+    padding: 17px 25px;
+    background: white;
+    font-size: 14px;
+    margin: 0 0 0 15px;
+    color: #CC6661;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: #CC6661;
+    color: white;
+}
+
+
+
+/*===============
+	TYPOGRAPHY
+===============*/
+h1 {
+    color: #CC6661;
+    font-size: 3em; /* 48px / 16px = 3em */
+}
+
+h2 {
+    color: #CC6661;
+	font-size: 2.25em; /* 36px / 16px = 2.25em */
+}
+
+h3 {    
+    color: #CC6661;
+    font-size: 1.5em; /* 24px /16px = 1.5em */ 
+}
+
+p {
+	font-size: 1.25em; /* 20px */
+	line-height: 1.25em; /* 20px */
+}
+
+/* All Links */ 
+a {
+	color: #F00;
+	font-size: 1.25em; /* 20px */
+}
+
+
+footer {
+    text-align: center;
+
+}
+
+footer a {
+	font-size: 1em; /* 20px / 20px = 1em  */
+}
+
+/*===============
+  DESIGN GALLERY
+===============*/
+
+
+li {
+  float: left;
+  list-style: none;
+  margin: 5px;
+}
+
+h3 {
+  clear: left;
+}
+
+.fullsize {
+  position: relative;
+}
+
+.fullsize img {
+  position: absolute;
+  top: 0.04166666666667%;
+  left: 0.04166666666667%;
+}
+
+
+.thumbs li img {
+  border: 5px solid white;
+}
+
+.thumbs li img:hover {
+    border: 5px solid #CC6661;
+}
+
+
+#fullsize-1:target {
+    border: 5px solid white;
+    z-index: 1;
+
+}
+
+#fullsize-2:target {
+    border: 5px solid white;
+    z-index: 1;
+
+
+}
+
+#fullsize-3:target {
+    border: 5px solid white;
+    z-index: 1;
+
+}
+
+#fullsize-4:target {
+    border: 5px solid white;
+    z-index: 1;
+
+}
+
+
+
+.container [src*="me"] {
+    width: 20%;
+    margin-top: 50px;
+    }
+
+
+
+
+
+
+
+/*===============
+	LARGE DESKTOP
+===============*/
+@media screen and ( max-width: 1440px ) {
+	
+    
+    .container [src*="small"] {
+        display: none;
+    }
+    
+
+
+
+} /* end of Desktop */
+
+/*===============
+	STANDARD DESKTOP
+===============*/
+@media screen and ( max-width: 1280px ) {
+	
+    .container [src*="small"] {
+        display: none;
+    }
+    
+
+
+
+} /* end of Stadnard Desktop */
+
+
+
+/*===============
+	TABLET
+===============*/
+@media screen and ( max-width: 768px ) {
+	   body {
+	}    
+  
+
+    nav a {
+        background-color: none;
+        margin: 0 5px 0 5px;
+        padding: 10px;
+}
+    
+    nav li:nth-child(1) {
+        margin-left: 100px;
+}
+	
+	nav li {
+        width: inherit;
+        margin: auto;
+        margin-top: -1%;
+		padding: 1.5625% 0; /* 15px / 960 */
+		text-align: center;
+}
+    
+    .container [src*="small"] {
+        display: none;
+}
+    
+    
+
+    
+
+
+} /* end of tablet */
+
+/*===============
+	PHONE
+===============*/
+@media screen and ( max-width: 480px ) {
+	
+	iframe {
+        width: 320px;
+	}
+	
+    .container [src*="logo"] {
+        display: none;
+    }
+    
+    .container [src*="small"] {
+        width: 100%;
+        display: block;
+    }
+    
+
+
+    
+    nav {
+        height: 175px;
+        width: auto;
+        float: none;
+        padding: 30px 30px;
+        margin-top: -20px;
+        }
+    
+    nav ul {
+        margin-top: 20px;
+        margin-left: 0;
+        padding: 0;
+    }
+    
+    nav li {
+        width: inherit;
+        text-align: center;
+        margin: inherit;
+        float: none;
+        list-style: none;
+    }
+    
+    /*  Don't push the first link left  */
+    nav li:nth-child(1) {
+        margin-left: 0;
+    }
+    
+    nav a {
+        padding: 10px;
+        font-size: 14px;
+        color: #CC6661;
+        text-decoration: none;
+
+    }
+    
+    nav a:hover{
+        background-color: #CC6661;
+        color: white;
+    }
+    
+    .fullsize img {
+      position: absolute;
+      top: 200px;
+      left: 10%;
+    }
+    
+    article .thumbs {
+        margin: 10% 20px;
+        width: 100%;
+}
+
+    .fullsize img {
+        margin-left: -10%;
+        width: 100%;
+}
+    
+    .container [src*="me"] {
+        width: 50%;
+        margin-top: 50px;
+    }
+    
+    } /* end of phone */
+    
+    
+
+
 
